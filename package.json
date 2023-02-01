@@ -1,7 +1,8 @@
 {
-  "name": "my-module",
+  "name": "@zaifer/nuxt-query",
   "version": "1.0.0",
-  "description": "My new Nuxt module",
+  "author": "zaifer",
+  "description": "Simple asyncData wrapper",
   "license": "MIT",
   "type": "module",
   "exports": {
