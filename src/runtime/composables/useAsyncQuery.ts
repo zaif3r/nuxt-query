@@ -4,7 +4,7 @@ import type {
   UseAsyncQueryResult,
 } from "../../types";
 import type { AsyncData } from "nuxt/app";
-import { ref, computed, toRaw } from "vue";
+import { ref, computed, watch, toRaw } from "vue";
 import { get, computedEager } from "@vueuse/core";
 import { unwrapArgs, validateArgs } from "../utils";
 import { useAsyncData } from "#imports";
