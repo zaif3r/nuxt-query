@@ -20,3 +20,5 @@ export default defineNuxtModule<ModuleOptions>({
     });
   },
 });
+
+export { useAsyncQuery } from "./runtime/composables/useAsyncQuery";
