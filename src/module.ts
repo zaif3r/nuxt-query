@@ -20,3 +20,11 @@ export default defineNuxtModule<ModuleOptions>({
     });
   },
 });
+
+export type {
+  QueryArgs,
+  QueryOptions,
+  UseQueryArgs,
+  UseAsyncQueryParams,
+  UseAsyncQueryResult,
+} from "./types";
