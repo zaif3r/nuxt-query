@@ -11,7 +11,7 @@ export type UseQueryArgs<Args extends object> = MaybeRef<
 >;
 
 export type UseAsyncQueryParams<Args extends object, Data> = {
-  key: string;
+  key?: string;
   args?: UseQueryArgs<Args>;
   options?: QueryOptions<Args, Data>;
   asyncFn: (args: Args) => Promise<Data>;
